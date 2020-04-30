@@ -1,17 +1,17 @@
-RISC processor implementation (MIPS R3000)
+#RISC processor implementation (MIPS R3000)
 
-files:
-bin      - assembler, compiler c, linker and SRAM modules generator
-libexec  - backend GCC
-src      - SRAM generator source code
-test     - tests, Makefile, crt0, linker script
-vhdl     - microprocessor VHDL files
+content:
+  +bin      - assembler, compiler c, linker and SRAM modules generator.
+  +libexec  - backend GCC.
+  +src      - SRAM generator source code.
+  +test     - tests, Makefile, crt0, linker script.
+  +vhdl     - microprocessor VHDL files.
 
 
 to compile the test files:
 
-1.edit the RISC_PATH variable of the Makefile
-2.in the test directory run make (..\bin\make is provided)
+1. edit the RISC_PATH variable of the Makefile
+2. in the test directory run make (..\bin\make is provided)
 
 to compile the tests with -O1 optimization:
 
